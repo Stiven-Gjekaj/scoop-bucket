@@ -1,4 +1,4 @@
-# The Scoop bucket of Burnout
+# The Scoop bucket of Burnout and HotDogStand
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -16,6 +16,19 @@ only from a shell that runs as Administrator.
 Burnout erases the drive that you give it, and nothing undoes that. Read
 [TERMS.md](https://github.com/Stiven-Gjekaj/burnout/blob/main/TERMS.md)
 before you run it.
+
+## HotDogStand
+
+[HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand) is a ticket
+manager on your own computer, with the look of Windows 7.
+
+    scoop bucket add stiven-gjekaj https://github.com/Stiven-Gjekaj/scoop-bucket
+    scoop install stiven-gjekaj/hotdogstand
+
+The manifest installs the Windows package of the release, for x86_64, and
+puts HotDogStand in the Start menu. Scoop checks the download against its
+SHA-256. `scripts/scoop-manifest.sh` in the HotDogStand repository writes
+`bucket/hotdogstand.json` from the `SHA256SUMS` of each release.
 
 ## Where the manifest comes from
 
