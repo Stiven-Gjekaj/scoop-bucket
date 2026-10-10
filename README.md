@@ -1,4 +1,4 @@
-# The Scoop bucket of Burnout and HotDogStand
+# The Scoop bucket of Burnout, HotDogStand and AllTheTools
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -29,6 +29,21 @@ The manifest installs the Windows package of the release, for x86_64, and
 puts HotDogStand in the Start menu. Scoop checks the download against its
 SHA-256. `scripts/scoop-manifest.sh` in the HotDogStand repository writes
 `bucket/hotdogstand.json` from the `SHA256SUMS` of each release.
+
+## AllTheTools
+
+[AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools) is one command,
+`att`, with twenty tools that one system has and the other two do not, such
+as lsusb, f3probe and caffeinate.
+
+    scoop bucket add stiven-gjekaj https://github.com/Stiven-Gjekaj/scoop-bucket
+    scoop install stiven-gjekaj/allthetools
+
+The manifest installs the Windows binary of the release, for x86_64 and for
+arm64. Scoop checks the download against its SHA-256. `att probe` and
+`att surface` need a shell that runs as Administrator.
+`scripts/scoop-manifest.sh` in the AllTheTools repository writes
+`bucket/allthetools.json` from the `SHA256SUMS` of each release.
 
 ## Where the manifest comes from
 
