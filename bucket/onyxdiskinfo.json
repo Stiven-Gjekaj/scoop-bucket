@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "description": "Reads the health of every disk, and tests, formats and erases it",
+    "homepage": "https://github.com/Stiven-Gjekaj/OnyxDiskInfo",
+    "license": "MIT",
+    "notes": "Onyx reads most drives only from a shell that runs as Administrator. The app asks for it when it starts.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v0.1.0/OnyxDiskInfo-0.1.0-x86_64-pc-windows-msvc.zip",
+            "hash": "fa65728be464cc8760cc56a947d3a946a430e97d33165797f0ca87b255df1240"
+        },
+        "arm64": {
+            "url": "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v0.1.0/OnyxDiskInfo-0.1.0-aarch64-pc-windows-msvc.zip",
+            "hash": "58a153744a017dd6cc4ba26f9d1d29f62e5de8efcd3aaf86ee1b2a7bd10fa8f7"
+        }
+    },
+    "extract_dir": "OnyxDiskInfo",
+    "bin": "onyx.exe",
+    "shortcuts": [["OnyxDiskInfo.exe", "OnyxDiskInfo"]],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v$version/OnyxDiskInfo-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v$version/OnyxDiskInfo-$version-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
