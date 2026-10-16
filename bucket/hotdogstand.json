@@ -1,13 +1,13 @@
 {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "A ticket manager on your own computer, with the look of Windows 7",
     "homepage": "https://github.com/Stiven-Gjekaj/HotDogStand",
     "license": "MIT",
     "notes": "HotDogStand keeps your tickets in %APPDATA%\\HotDogStand\\workspace.db. An uninstall does not remove them.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stiven-Gjekaj/HotDogStand/releases/download/v0.1.1/HotDogStand-windows-x86_64.zip",
-            "hash": "690534f37533f5d9d139c733f69723af21ecfdfe0fb5027857a21d208aa97306"
+            "url": "https://github.com/Stiven-Gjekaj/HotDogStand/releases/download/v0.2.0/HotDogStand-windows-x86_64.zip",
+            "hash": "214decf7c2f5e8cc9844b7f2afdbb656f4eb5a939f0f32c9517fb8c6191de2b2"
         }
     },
     "extract_dir": "HotDogStand",
