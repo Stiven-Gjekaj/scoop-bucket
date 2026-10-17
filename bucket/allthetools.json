@@ -1,17 +1,17 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "The same small tools on Windows, on macOS and on Linux, in one binary",
     "homepage": "https://github.com/Stiven-Gjekaj/AllTheTools",
     "license": "MIT",
     "notes": "att link makes the familiar names, such as lsusb and f3probe, run att. att probe and att surface need a shell that runs as Administrator.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.3.0/att-0.3.0-x86_64-pc-windows-msvc.exe#/att.exe",
-            "hash": "5cbad0d4e1e2903e4fc92be93f611720238ca41eaf961a1ab3c1f1e5a2dc2b80"
+            "url": "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.4.0/att-0.4.0-x86_64-pc-windows-msvc.exe#/att.exe",
+            "hash": "d33f53cc7702ce270dd86a1bda92e854558df293cd7f36b0aed8a669722d1425"
         },
         "arm64": {
-            "url": "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.3.0/att-0.3.0-aarch64-pc-windows-msvc.exe#/att.exe",
-            "hash": "f221efcf0414bcad511d81ad73d7a06e0b48859ab1daf73cb29c8f4ff682e1ec"
+            "url": "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.4.0/att-0.4.0-aarch64-pc-windows-msvc.exe#/att.exe",
+            "hash": "a53a97a3cc93d5a35b7834984cf3c657ec8bab70bf3ff73f679185ecb82af3c4"
         }
     },
     "bin": "att.exe",
