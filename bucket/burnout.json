@@ -1,17 +1,17 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "Writes a bootable USB drive from an ISO or a disk image",
     "homepage": "https://github.com/Stiven-Gjekaj/burnout",
     "license": "MIT",
     "notes": "Burnout writes a drive only from a shell that runs as Administrator.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v3.0.0/burnout-3.0.0-x86_64-pc-windows-msvc.exe#/burnout.exe",
-            "hash": "310a0835435354069769e4328b8d8bd2721bda1e2029809166d087b74ac3c6d5"
+            "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v3.1.0/burnout-3.1.0-x86_64-pc-windows-msvc.exe#/burnout.exe",
+            "hash": "cd19483ac7da297ea38a4e73ace27ce7a3039a1df47f025e6afe10ac4daeffb4"
         },
         "arm64": {
-            "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v3.0.0/burnout-3.0.0-aarch64-pc-windows-msvc.exe#/burnout.exe",
-            "hash": "8fac8209b1855dcaeb09db6ff663b7aed5ed0d03c0e464795ba7fff73f7833a4"
+            "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v3.1.0/burnout-3.1.0-aarch64-pc-windows-msvc.exe#/burnout.exe",
+            "hash": "0373564a2bf03e6ec2e8387d3222c5ad13ce89ea3294b7ba6ef6dee3b4eedfc8"
         }
     },
     "bin": "burnout.exe",
