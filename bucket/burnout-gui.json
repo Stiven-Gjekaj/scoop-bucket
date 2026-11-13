@@ -1,0 +1,36 @@
+{
+    "version": "3.4.0",
+    "description": "Writes a bootable USB drive, in a window",
+    "homepage": "https://github.com/Stiven-Gjekaj/burnout",
+    "license": "MIT",
+    "depends": "stiven-gjekaj/burnout",
+    "notes": "Burnout asks Windows for the privilege through UAC when it writes.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v3.4.0/burnout-gui-3.4.0-x86_64-pc-windows-msvc.exe#/burnout-gui.exe",
+            "hash": "07725c4680b9dc59a6900b87fb6716071e2e3f34cdcea58423df9499616ef2a4"
+        },
+        "arm64": {
+            "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v3.4.0/burnout-gui-3.4.0-aarch64-pc-windows-msvc.exe#/burnout-gui.exe",
+            "hash": "d75479ae5f675e51086334cd03e6b4756b7eded3a3c0c012f089c7825b35739b"
+        }
+    },
+    "bin": "burnout-gui.exe",
+    "shortcuts": [
+        [
+            "burnout-gui.exe",
+            "Burnout"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v$version/burnout-gui-$version-x86_64-pc-windows-msvc.exe#/burnout-gui.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Stiven-Gjekaj/burnout/releases/download/v$version/burnout-gui-$version-aarch64-pc-windows-msvc.exe#/burnout-gui.exe"
+            }
+        }
+    }
+}
