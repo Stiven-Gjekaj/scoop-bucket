@@ -1,0 +1,29 @@
+{
+    "version": "2026.11.0",
+    "description": "Niche fixes in one command, odd, for Windows, macOS and Linux",
+    "homepage": "https://github.com/Stiven-Gjekaj/AllTheOddities",
+    "license": "MIT",
+    "notes": "Scoop updates odd. Use scoop update alltheoddities, and not odd update. Some oddities need a shell that runs as Administrator.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Stiven-Gjekaj/AllTheOddities/releases/download/v2026.11.0/odd-x86_64-pc-windows-msvc.exe#/odd.exe",
+            "hash": "709bccd6a1bfc8c29adbe930eb5659c4d38c5415299c445f7f89c107c5704157"
+        },
+        "arm64": {
+            "url": "https://github.com/Stiven-Gjekaj/AllTheOddities/releases/download/v2026.11.0/odd-aarch64-pc-windows-msvc.exe#/odd.exe",
+            "hash": "6de4fdeee69a88c6bdeeed67935a126654c3a0bf7ef6bdf7e6c84abc3289b8e0"
+        }
+    },
+    "bin": "odd.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Stiven-Gjekaj/AllTheOddities/releases/download/v$version/odd-x86_64-pc-windows-msvc.exe#/odd.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Stiven-Gjekaj/AllTheOddities/releases/download/v$version/odd-aarch64-pc-windows-msvc.exe#/odd.exe"
+            }
+        }
+    }
+}
