@@ -1,4 +1,4 @@
-# The Scoop bucket of Burnout, HotDogStand, AllTheTools and OnyxDiskInfo
+# The Scoop bucket of Burnout, HotDogStand, AllTheTools, AllTheOddities and OnyxDiskInfo
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -44,6 +44,22 @@ arm64. Scoop checks the download against its SHA-256. `att probe` and
 `att surface` need a shell that runs as Administrator.
 `scripts/scoop-manifest.sh` in the AllTheTools repository writes
 `bucket/allthetools.json` from the `SHA256SUMS` of each release.
+
+## AllTheOddities
+
+[AllTheOddities](https://github.com/Stiven-Gjekaj/AllTheOddities) is one
+command, `odd`, with niche fixes that helped once, such as the SSH setup of a
+new computer, a trusted HTTPS certificate for localhost, and the password of
+the Wi-Fi network.
+
+    scoop bucket add stiven-gjekaj https://github.com/Stiven-Gjekaj/scoop-bucket
+    scoop install stiven-gjekaj/alltheoddities
+
+The manifest installs the Windows binary of the release, for x86_64 and for
+arm64. Scoop checks the download against its SHA-256. Some oddities need a
+shell that runs as Administrator. `scripts/scoop-manifest.sh` in the
+AllTheOddities repository writes `bucket/alltheoddities.json` from the
+`SHA256SUMS` of each release.
 
 ## OnyxDiskInfo
 
